@@ -19,7 +19,7 @@ def get_sentence_lengths(sentences):
 
 
 st.set_page_config(layout="centered")
-st.title("📏 Sentence Length Analyzer (No regex)")
+st.title("📏 Sentence Length Analyzer")
 
 uploaded = st.file_uploader("Upload PDF or Word Document", type=["pdf", "docx"])
 
